@@ -121,5 +121,9 @@ input[type="number"]:focus {
     border-color: #002d5e;
     outline: none;
 }
+i {
+  font-size: 13px;
+  cursor: pointer;
+}
 
   
