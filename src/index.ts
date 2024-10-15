@@ -51,3 +51,13 @@ function handleFormSubmit(event: Event) {
 
 // Adicionando o listener ao formulário
 document.getElementById('zscore-form')!.addEventListener('submit', handleFormSubmit);
+
+// Adiciona o listener para as infos
+let infos = document.querySelectorAll(".info")
+infos.forEach((e) => {
+    e.addEventListener("click", () => {
+       let infoCard = e.querySelector(".info-card")!
+       infoCard.classList.toggle("active")
+       console.log("hello")
+    })
+})
